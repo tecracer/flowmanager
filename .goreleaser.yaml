@@ -3,10 +3,9 @@ before:
     - go mod download
     - govulncheck
 builds:
-  - id: flowmanager
-    main: main/main.go
   - env:
       - CGO_ENABLED=0
+    main: main/main.go
     goos:
       - linux
       - darwin
