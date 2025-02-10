@@ -1,0 +1,3 @@
+stageparameter: "/flowmanager/stage"
+# Per stage
+instancealias: "megaproaktiv"
